@@ -11,6 +11,21 @@ $faded-red:#d03958;
 $greyish:#b5b5b5;
 .container {
     max-width: 1010px;
+    margin: 0 auto;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    .logo{
+        margin-top: 41px;
+        margin-left: 5px;
+    }
+    .main_nav{
+        align-self: flex-start;
+        margin-top: 71px;
+    }
 }
 
 .logo_text {
@@ -19,7 +34,7 @@ $greyish:#b5b5b5;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 0.37;
+    line-height: 1;
     letter-spacing: -1.8px;
     text-align: center;
     color: $faded-red;
@@ -41,7 +56,8 @@ $greyish:#b5b5b5;
     letter-spacing: -0.4px;
     text-align: left;
     color: $black-three;
-    padding: 11px 15px 11px 15px; // display: flex;
+    padding: 11px 16px;
+    text-transform: uppercase;
     &:hover {
         color: $white;
         background-color: $faded-red;

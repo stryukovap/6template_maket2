@@ -54,6 +54,23 @@ table {
 
 .container {
   max-width: 1010px;
+  margin: 0 auto;
+}
+
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_wrapper .logo {
+  margin-top: 41px;
+  margin-left: 5px;
+}
+
+.header_wrapper .main_nav {
+  align-self: flex-start;
+  margin-top: 71px;
 }
 
 .logo_text {
@@ -62,7 +79,7 @@ table {
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 0.37;
+  line-height: 1;
   letter-spacing: -1.8px;
   text-align: center;
   color: #d03958;
@@ -84,7 +101,8 @@ table {
   letter-spacing: -0.4px;
   text-align: left;
   color: #1b1b1b;
-  padding: 11px 15px 11px 15px;
+  padding: 11px 16px;
+  text-transform: uppercase;
 }
 
 .main_nav_item_link:hover {
