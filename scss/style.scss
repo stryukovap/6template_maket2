@@ -16,13 +16,13 @@ $greyish:#b5b5b5;
 
 .header_wrapper {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-    .logo{
+    .logo {
         margin-top: 41px;
         margin-left: 5px;
     }
-    .main_nav{
+    .main_nav {
         align-self: flex-start;
         margin-top: 71px;
     }
@@ -62,5 +62,33 @@ $greyish:#b5b5b5;
         color: $white;
         background-color: $faded-red;
         border-radius: 5px;
+    }
+}
+
+.main_header_tittle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.89;
+    letter-spacing: -1.8px;
+    text-align: left;
+    .main_header_title_part1 {
+        color: $faded-red;
+    }
+    .main_header_title_part2 {
+        color: $black;
+    }
+    .main_header_title_text {
+        font-family: 'PTSerif', serif;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: -0.4px;
+        text-align: left;
+        color: $black;
     }
 }
