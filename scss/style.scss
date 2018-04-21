@@ -1,0 +1,50 @@
+// font-family: 'Quite Chocolatey';
+// font-family: 'Monotype Corsiva';
+// font-family: 'Montserrat';
+@import 'reset';
+$white: #ffffff;
+$black: #161616;
+$black-two:#1f1f1f;
+$black-three:#1b1b1b;
+$beige:#e3d5b8;
+$faded-red:#d03958;
+$greyish:#b5b5b5;
+.container {
+    max-width: 1010px;
+}
+
+.logo_text {
+    font-family: 'Quite Chocolatey';
+    font-size: 88.5px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.37;
+    letter-spacing: -1.8px;
+    text-align: center;
+    color: $faded-red;
+}
+
+.main_nav_list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main_nav_item_link {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.22;
+    letter-spacing: -0.4px;
+    text-align: left;
+    color: $black-three;
+    padding: 11px 15px 11px 15px; // display: flex;
+    &:hover {
+        color: $white;
+        background-color: $faded-red;
+        border-radius: 5px;
+    }
+}
