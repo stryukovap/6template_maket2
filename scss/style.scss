@@ -293,6 +293,7 @@ $container:1010px;
         display: inline-block;
         margin-top: 35px;
         margin-bottom: 10px;
+        text-decoration: none;
         &:hover {
             background-color: $faded-red;
             color: $white;
@@ -387,6 +388,7 @@ $container:1010px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin-top: 35px;
     }
     .gallery_list_item {
         margin-top: 30px;
@@ -412,7 +414,7 @@ $container:1010px;
     width: 105px;
     height: 105px;
     background-repeat: no-repeat;
-    background-size: 150px 150px; // display: inline-block;
+    background-size: 150px 150px;
     display: block;
     font-size: 0;
     border-radius: 50%;
@@ -466,5 +468,74 @@ $container:1010px;
     .logo {
         margin-top: 73px;
         margin-right: 5px;
+    }
+}
+
+.abs_form {
+    position: absolute;
+    top: 260px;
+    right: 200px;
+    width: 400px;
+    height: 500px;
+    border-radius: 5.2px;
+    background-color: $faded-red;
+    box-shadow: 0px -5px 38px 0 rgba(173, 173, 173, 0.75);
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: -0.4px;
+    text-align: center;
+    color: $greyish;
+    .abs_form_title{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: -0.4px;
+        text-align: center;
+        color: $white;
+        padding-top: 33px;
+    }
+    .fullname,
+    .email,
+    .tel,
+    .country {
+        padding-left: 19px;
+        text-align: left;
+        width: 353px;
+        height: 57px;
+        mix-blend-mode: undefined;
+        border-radius: 5px;
+        background-color: $white;
+        margin-top: 15px;
+    }
+    .accept_wrapper {
+        width: 353px;
+        // height: 25px;
+        margin-top: 20px;
+        .accept_label {
+            color: $white;
+        }
+    }
+    .abs_form_button {
+        margin-top: 15px;
+        width: 353px;
+        height: 57px;
+        border-radius: 5px;
+        background-color: $black;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: -0.4px;
+        text-align: center;
+        color: $white;
     }
 }
