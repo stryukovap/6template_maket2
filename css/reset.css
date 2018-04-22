@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+/* line 6, D:/Development/GitHub/6template_maket2/scss/reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,30 +25,38 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
+/* line 27, D:/Development/GitHub/6template_maket2/scss/reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+/* line 31, D:/Development/GitHub/6template_maket2/scss/reset.scss */
 body {
   line-height: 1;
 }
 
+/* line 34, D:/Development/GitHub/6template_maket2/scss/reset.scss */
 ol, ul {
   list-style: none;
 }
 
+/* line 37, D:/Development/GitHub/6template_maket2/scss/reset.scss */
 blockquote, q {
   quotes: none;
 }
 
+/* line 40, D:/Development/GitHub/6template_maket2/scss/reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
+/* line 45, D:/Development/GitHub/6template_maket2/scss/reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/*# sourceMappingURL=../css/reset.map */

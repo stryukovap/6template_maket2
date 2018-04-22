@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+/* line 6, D:/Development/GitHub/6template_maket2/scss/reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,55 +25,66 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
+/* line 27, D:/Development/GitHub/6template_maket2/scss/reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+/* line 31, D:/Development/GitHub/6template_maket2/scss/reset.scss */
 body {
   line-height: 1;
 }
 
+/* line 34, D:/Development/GitHub/6template_maket2/scss/reset.scss */
 ol, ul {
   list-style: none;
 }
 
+/* line 37, D:/Development/GitHub/6template_maket2/scss/reset.scss */
 blockquote, q {
   quotes: none;
 }
 
+/* line 40, D:/Development/GitHub/6template_maket2/scss/reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
+/* line 45, D:/Development/GitHub/6template_maket2/scss/reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
+/* line 10, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .container {
   max-width: 1010px;
   margin: 0 auto;
 }
 
+/* line 15, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .header_wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+/* line 19, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .header_wrapper .logo {
   margin-top: 41px;
   margin-left: 5px;
 }
 
+/* line 23, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .header_wrapper .main_nav {
   align-self: flex-start;
   margin-top: 71px;
 }
 
+/* line 29, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .logo_text {
   font-family: 'Quite Chocolatey';
   font-size: 88.5px;
@@ -85,11 +97,13 @@ table {
   color: #d03958;
 }
 
+/* line 41, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .main_nav_list {
   display: flex;
   justify-content: flex-end;
 }
 
+/* line 46, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .main_nav_item_link {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
@@ -105,12 +119,14 @@ table {
   text-transform: uppercase;
 }
 
+/* line 59, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .main_nav_item_link:hover {
   color: #ffffff;
   background-color: #d03958;
   border-radius: 5px;
 }
 
+/* line 66, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .main_header_tittle {
   font-family: 'Montserrat', sans-serif;
   font-size: 90px;
@@ -124,14 +140,17 @@ table {
   margin-top: 163px;
 }
 
+/* line 77, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .main_header_tittle .main_header_title_part1 {
   color: #d03958;
 }
 
+/* line 80, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .main_header_tittle .main_header_title_part2 {
   color: #161616;
 }
 
+/* line 83, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .main_header_tittle .main_header_title_text {
   font-family: 'PT Serif', serif;
   font-size: 20px;
@@ -145,6 +164,7 @@ table {
   margin-top: 47px;
 }
 
+/* line 98, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .serveces .services_title {
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
@@ -157,19 +177,24 @@ table {
   margin-top: 40px;
 }
 
+/* line 108, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .serveces .services_title .sevrice_title_part1 {
   color: #d03958;
 }
 
+/* line 111, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .serveces .services_title .sevrice_title_part2 {
   color: #161616;
 }
 
+/* line 115, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .serveces .service_list {
+  margin-top: 100px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
+/* line 119, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .serveces .service_list .service_item {
   font-family: 'PT Serif', serif;
   font-size: 20px;
@@ -181,4 +206,96 @@ table {
   text-align: center;
   color: #161616;
   max-width: 16.63366%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
+
+/* line 134, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.serveces .service_list .service_item::before {
+  content: "";
+  margin-bottom: 50px;
+}
+
+/* line 138, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.serveces .service_list .service_item.--heart::before {
+  width: 163px;
+  height: 142px;
+  background-image: url(../img/heart_163x142.png);
+}
+
+/* line 143, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.serveces .service_list .service_item.--keys::before {
+  width: 137px;
+  height: 137px;
+  background-image: url(../img/keys_137x137.png);
+}
+
+/* line 148, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.serveces .service_list .service_item.--lamp::before {
+  width: 116px;
+  height: 155px;
+  background-image: url(../img/lamp_116x155.png);
+}
+
+/* line 153, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.serveces .service_list .service_item.--nav::before {
+  width: 150px;
+  height: 150px;
+  background-image: url(../img/nav_150x150.png);
+}
+
+/* line 162, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.row {
+  border-radius: 5px;
+  background-color: #d03958;
+  margin-top: 50px;
+}
+
+/* line 166, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.row .row_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 171, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.row .row_text {
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 34px;
+  padding-bottom: 42px;
+  max-width: 59.50495%;
+}
+
+/* line 185, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.row .row_link {
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #161616;
+  padding: 24px 76px 23px 65px;
+  border-radius: 5px;
+  background-color: #e3d5b8;
+}
+
+/* line 199, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.row .row_link:hover {
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=../css/style.map */
