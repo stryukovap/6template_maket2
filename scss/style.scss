@@ -9,8 +9,9 @@ $black-three:#1b1b1b;
 $beige:#e3d5b8;
 $faded-red:#d03958;
 $greyish:#b5b5b5;
+$container:1010px;
 .container {
-    max-width: 1010px;
+    max-width: $container;
     margin: 0 auto;
 }
 
@@ -74,6 +75,8 @@ $greyish:#b5b5b5;
     line-height: 0.89;
     letter-spacing: -1.8px;
     text-align: left;
+    max-width: 493px / $container * 100%;
+    margin-top: 163px;
     .main_header_title_part1 {
         color: $faded-red;
     }
@@ -81,7 +84,7 @@ $greyish:#b5b5b5;
         color: $black;
     }
     .main_header_title_text {
-        font-family: 'PTSerif', serif;
+        font-family: 'PT Serif', serif;
         font-size: 20px;
         font-weight: normal;
         font-style: normal;
@@ -90,5 +93,42 @@ $greyish:#b5b5b5;
         letter-spacing: -0.4px;
         text-align: left;
         color: $black;
+        margin-top: 47px;
+    }
+}
+
+.serveces {
+    .services_title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.6;
+        letter-spacing: -1px;
+        text-align: left;
+        margin-top: 40px;
+        .sevrice_title_part1 {
+            color: $faded-red;
+        }
+        .sevrice_title_part2 {
+            color: $black;
+        }
+    }
+    .service_list {
+        display: flex;
+        justify-content: space-evenly;
+        .service_item {
+            font-family: 'PT Serif', serif;
+            font-size: 20px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.4;
+            letter-spacing: -0.4px;
+            text-align: center;
+            color: $black;
+            max-width: 168px / $container * 100%;
+        }
     }
 }

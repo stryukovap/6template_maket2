@@ -120,6 +120,8 @@ table {
   line-height: 0.89;
   letter-spacing: -1.8px;
   text-align: left;
+  max-width: 48.81188%;
+  margin-top: 163px;
 }
 
 .main_header_tittle .main_header_title_part1 {
@@ -131,7 +133,7 @@ table {
 }
 
 .main_header_tittle .main_header_title_text {
-  font-family: 'PTSerif', serif;
+  font-family: 'PT Serif', serif;
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
@@ -140,4 +142,43 @@ table {
   letter-spacing: -0.4px;
   text-align: left;
   color: #161616;
+  margin-top: 47px;
+}
+
+.serveces .services_title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: -1px;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.serveces .services_title .sevrice_title_part1 {
+  color: #d03958;
+}
+
+.serveces .services_title .sevrice_title_part2 {
+  color: #161616;
+}
+
+.serveces .service_list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.serveces .service_list .service_item {
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #161616;
+  max-width: 16.63366%;
 }
