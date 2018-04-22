@@ -301,6 +301,7 @@ $container:1010px;
 }
 
 .tesmonial {
+    // max-width: (336px + 15px + 105px) /$container*100%;
     max-width: 50%;
     .tesmonial_title {
         font-family: 'Montserrat', sans-serif;
@@ -323,8 +324,22 @@ $container:1010px;
         letter-spacing: -0.4px;
         text-align: left;
         color: $black;
+        position: relative;
+        margin-top: 60px;
+        // max-width: 336px / $container*100%;
+        width: 336px;
+        &::before {
+            content: "";
+            width: 105px;
+            height: 105px;
+            display: block;
+            position: absolute;
+            background-image: url(../img/testim1_105x105.png);
+            top: 0;
+            right: 0;
+        }
     }
-    .tesmonial_list_item_author{
+    .tesmonial_list_item_author {
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: normal;
@@ -334,11 +349,13 @@ $container:1010px;
         letter-spacing: -0.4px;
         text-align: left;
         color: $faded-red;
+        padding-top: 23px;
     }
 }
-.gallery{
+
+.gallery {
     max-width: 50%;
-    .gallery_title{
+    .gallery_title {
         font-family: 'Montserrat', sans-serif;
         font-size: 50px;
         font-weight: bold;

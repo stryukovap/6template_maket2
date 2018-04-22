@@ -420,7 +420,7 @@ table {
   max-width: 50%;
 }
 
-/* line 305, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 306, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .tesmonial .tesmonial_title {
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
@@ -433,7 +433,7 @@ table {
   color: #1f1f1f;
 }
 
-/* line 316, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 317, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .tesmonial .tesmonial_list_item_text {
   font-family: 'PT Serif', serif;
   font-size: 20px;
@@ -444,9 +444,24 @@ table {
   letter-spacing: -0.4px;
   text-align: left;
   color: #161616;
+  position: relative;
+  margin-top: 60px;
+  width: 336px;
 }
 
-/* line 327, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 331, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.tesmonial .tesmonial_list_item_text::before {
+  content: "";
+  width: 105px;
+  height: 105px;
+  display: block;
+  position: absolute;
+  background-image: url(../img/testim1_105x105.png);
+  top: 0;
+  right: 0;
+}
+
+/* line 342, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .tesmonial .tesmonial_list_item_author {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
@@ -457,14 +472,15 @@ table {
   letter-spacing: -0.4px;
   text-align: left;
   color: #d03958;
+  padding-top: 23px;
 }
 
-/* line 339, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 356, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .gallery {
   max-width: 50%;
 }
 
-/* line 341, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 358, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .gallery .gallery_title {
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
