@@ -12,6 +12,17 @@ $container:1010px;
     margin: 0 auto;
 }
 
+.main_header {
+    background-image: url(../img/bg_header_1200x693.png);
+    background-repeat: no-repeat;
+    background-position: center; // background-size: auto;
+    background-size: cover;
+}
+
+.main_header_wrapper {
+    background-color: rgba(227, 213, 184, 0.5);
+}
+
 .header_wrapper {
     display: flex;
     justify-content: space-between;
@@ -91,6 +102,7 @@ $container:1010px;
         text-align: left;
         color: $black;
         margin-top: 47px;
+        padding-bottom: 156px;
     }
 }
 
@@ -232,6 +244,7 @@ $container:1010px;
     background-color: $white;
     border-radius: 5px;
     min-width: 318px / 1010px * 100%;
+    margin-bottom: 5px;
     .pricing_card_title {
         font-size: 22px;
         line-height: 1.27;
@@ -279,5 +292,61 @@ $container:1010px;
             background-color: $faded-red;
             color: $white;
         }
+    }
+}
+
+.tesmonial_gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tesmonial {
+    max-width: 50%;
+    .tesmonial_title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.6;
+        letter-spacing: -1px;
+        text-align: center;
+        color: $black-two;
+    }
+    .tesmonial_list_item_text {
+        font-family: 'PT Serif', serif;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: -0.4px;
+        text-align: left;
+        color: $black;
+    }
+    .tesmonial_list_item_author{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: -0.4px;
+        text-align: left;
+        color: $faded-red;
+    }
+}
+.gallery{
+    max-width: 50%;
+    .gallery_title{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.6;
+        letter-spacing: -1px;
+        text-align: center;
+        color: $faded-red;
     }
 }
