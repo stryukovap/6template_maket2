@@ -279,7 +279,7 @@ table {
 /* line 185, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .row .row_link {
   text-decoration: none;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-size: 22px;
   font-weight: normal;
   font-style: normal;
@@ -295,6 +295,102 @@ table {
 
 /* line 199, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .row .row_link:hover {
+  color: #ffffff;
+}
+
+/* line 205, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.pricing {
+  border-radius: 23.2px;
+  background-color: beige;
+}
+
+/* line 208, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.pricing .pricing_title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #1f1f1f;
+  padding-top: 65px;
+}
+
+/* line 220, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.pricing .pricing_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+
+/* line 228, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.pricing_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  min-width: 31.48515%;
+}
+
+/* line 235, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.pricing_card .pricing_card_title {
+  font-size: 22px;
+  line-height: 1.27;
+  margin-top: 35px;
+}
+
+/* line 240, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.pricing_card .pricing_card_value {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: -1.2px;
+  text-align: left;
+  color: #d03958;
+  margin-top: 40px;
+}
+
+/* line 252, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.pricing_card .pricing_card_item {
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #161616;
+  margin-top: 30px;
+}
+
+/* line 264, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.pricing_card .pricing_card_link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #161616;
+  padding: 18px 83px 15px 79px;
+  border-radius: 3.8px;
+  background-color: #e3d5b8;
+  margin-top: 35px;
+}
+
+/* line 278, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.pricing_card .pricing_card_link:hover {
+  background-color: #d03958;
   color: #ffffff;
 }
 

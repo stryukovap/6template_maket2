@@ -163,7 +163,7 @@ $container:1010px;
     border-radius: 5px;
     background-color: $faded-red;
     margin-top: 50px;
-    .row_wrapper{
+    .row_wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -184,7 +184,7 @@ $container:1010px;
     }
     .row_link {
         text-decoration: none;
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', sans-serif;
         font-size: 22px;
         font-weight: normal;
         font-style: normal;
@@ -197,6 +197,86 @@ $container:1010px;
         border-radius: 5px;
         background-color: $beige;
         &:hover {
+            color: $white;
+        }
+    }
+}
+
+.pricing {
+    border-radius: 23.2px;
+    background-color: beige;
+    .pricing_title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.6;
+        letter-spacing: -1px;
+        text-align: center;
+        color: $black-two;
+        padding-top: 65px;
+    }
+    .pricing_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+    }
+}
+
+.pricing_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $white;
+    border-radius: 5px;
+    min-width: 318px / 1010px * 100%;
+    .pricing_card_title {
+        font-size: 22px;
+        line-height: 1.27;
+        margin-top: 35px;
+    }
+    .pricing_card_value {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 60px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: -1.2px;
+        text-align: left;
+        color: $faded-red;
+        margin-top: 40px;
+    }
+    .pricing_card_item {
+        font-family: 'PT Serif', serif;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: -0.4px;
+        text-align: center;
+        color: $black;
+        margin-top: 30px;
+    }
+    .pricing_card_link {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.27;
+        letter-spacing: -0.4px;
+        text-align: center;
+        color: $black;
+        padding: 18px 83px 15px 79px;
+        border-radius: 3.8px;
+        background-color: $beige;
+        margin-top: 35px;
+        &:hover {
+            background-color: $faded-red;
             color: $white;
         }
     }
