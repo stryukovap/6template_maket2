@@ -413,14 +413,15 @@ table {
 .tesmonial_gallery {
   display: flex;
   justify-content: space-between;
+  margin-top: 150px;
 }
 
-/* line 303, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 304, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .tesmonial {
   max-width: 50%;
 }
 
-/* line 306, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 307, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .tesmonial .tesmonial_title {
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
@@ -433,7 +434,7 @@ table {
   color: #1f1f1f;
 }
 
-/* line 317, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 318, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .tesmonial .tesmonial_list_item_text {
   font-family: 'PT Serif', serif;
   font-size: 20px;
@@ -444,28 +445,15 @@ table {
   letter-spacing: -0.4px;
   text-align: left;
   color: #161616;
-  position: relative;
   margin-top: 60px;
   width: 336px;
 }
 
 /* line 331, D:/Development/GitHub/6template_maket2/scss/style.scss */
-.tesmonial .tesmonial_list_item_text::before {
-  content: "";
-  width: 105px;
-  height: 105px;
-  display: block;
-  position: absolute;
-  background-image: url(../img/testim1_105x105.png);
-  top: 0;
-  right: 0;
-}
-
-/* line 342, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .tesmonial .tesmonial_list_item_author {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.4;
@@ -475,12 +463,40 @@ table {
   padding-top: 23px;
 }
 
-/* line 356, D:/Development/GitHub/6template_maket2/scss/style.scss */
-.gallery {
-  max-width: 50%;
+/* line 345, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.tesmonial_list_item {
+  position: relative;
 }
 
-/* line 358, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 348, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.tesmonial_list_item .tesmonial_list_item_text::before {
+  content: "";
+  width: 105px;
+  height: 105px;
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  right: -90px;
+  box-shadow: 0px -5px 16px 0 rgba(184, 172, 147, 0.75);
+}
+
+/* line 359, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.tesmonial_list_item .tesmonial_list_item_text.--testim1::before {
+  background-image: url(../img/testim1_105x105.png);
+}
+
+/* line 362, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.tesmonial_list_item .tesmonial_list_item_text.--testim2::before {
+  background-image: url(../img/testim2_105x105.png);
+}
+
+/* line 368, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.gallery {
+  max-width: 38.41584%;
+}
+
+/* line 370, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .gallery .gallery_title {
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
@@ -491,6 +507,119 @@ table {
   letter-spacing: -1px;
   text-align: center;
   color: #d03958;
+}
+
+/* line 381, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.gallery .gallery_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* line 386, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.gallery .gallery_list_item {
+  margin-top: 30px;
+}
+
+/* line 389, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.gallery .gallery_link_wrapper {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* line 393, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.gallery .gallery_link {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: -0.4px;
+  color: #d03958;
+}
+
+/* line 406, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.gallery_list_item_link {
+  width: 105px;
+  height: 105px;
+  background-repeat: no-repeat;
+  background-size: 150px 150px;
+  display: block;
+  font-size: 0;
+  border-radius: 50%;
+  box-shadow: 0px -5px 16px 0 rgba(184, 172, 147, 0.75);
+}
+
+/* line 415, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.gallery_list_item_link.--gallery1 {
+  background-image: url(../img/gallery1_105x105.png);
+}
+
+/* line 418, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.gallery_list_item_link.--gallery2 {
+  background-image: url(../img/gallery2_105x105.png);
+}
+
+/* line 421, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.gallery_list_item_link.--gallery3 {
+  background-image: url(../img/gallery3_105x105.png);
+}
+
+/* line 424, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.gallery_list_item_link.--gallery4 {
+  background-image: url(../img/gallery4_105x105.png);
+}
+
+/* line 427, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.gallery_list_item_link.--gallery5 {
+  background-image: url(../img/gallery5_105x105.png);
+}
+
+/* line 430, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.gallery_list_item_link.--gallery6 {
+  background-image: url(../img/gallery6_105x105.png);
+}
+
+/* line 434, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.footer {
+  border-radius: 5px;
+  background-color: #161616;
+  margin-top: 120px;
+}
+
+/* line 439, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 442, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.footer_wrapper .footer_copy {
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.1;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* line 454, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.footer_wrapper .footer_copy .footer_link {
+  color: #d03958;
+  text-decoration: none;
+}
+
+/* line 459, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.footer_wrapper .logo {
+  margin-top: 73px;
+  margin-right: 5px;
 }
 
 /*# sourceMappingURL=../css/style.map */

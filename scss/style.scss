@@ -298,6 +298,7 @@ $container:1010px;
 .tesmonial_gallery {
     display: flex;
     justify-content: space-between;
+    margin-top: 150px;
 }
 
 .tesmonial {
@@ -323,26 +324,14 @@ $container:1010px;
         line-height: 1.4;
         letter-spacing: -0.4px;
         text-align: left;
-        color: $black;
-        position: relative;
-        margin-top: 60px;
-        // max-width: 336px / $container*100%;
+        color: $black; // position: relative;
+        margin-top: 60px; // max-width: 336px / $container*100%;
         width: 336px;
-        &::before {
-            content: "";
-            width: 105px;
-            height: 105px;
-            display: block;
-            position: absolute;
-            background-image: url(../img/testim1_105x105.png);
-            top: 0;
-            right: 0;
-        }
     }
     .tesmonial_list_item_author {
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
-        font-weight: normal;
+        font-weight: bold;
         font-style: normal;
         font-stretch: normal;
         line-height: 1.4;
@@ -353,8 +342,31 @@ $container:1010px;
     }
 }
 
+.tesmonial_list_item {
+    position: relative;
+    .tesmonial_list_item_text {
+        &::before {
+            content: "";
+            width: 105px;
+            height: 105px;
+            display: block;
+            position: absolute;
+            border-radius: 50%;
+            top: 0;
+            right: -75px - 15px;
+            box-shadow: 0px -5px 16px 0 rgba(184, 172, 147, 0.75);
+        }
+        &.--testim1::before {
+            background-image: url(../img/testim1_105x105.png);
+        }
+        &.--testim2::before {
+            background-image: url(../img/testim2_105x105.png);
+        }
+    }
+}
+
 .gallery {
-    max-width: 50%;
+    max-width: 388px / $container * 100%;
     .gallery_title {
         font-family: 'Montserrat', sans-serif;
         font-size: 50px;
@@ -365,5 +377,87 @@ $container:1010px;
         letter-spacing: -1px;
         text-align: center;
         color: $faded-red;
+    }
+    .gallery_list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .gallery_list_item {
+        margin-top: 30px;
+    }
+    .gallery_link_wrapper {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .gallery_link {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: -0.4px;
+        color: $faded-red;
+    }
+}
+
+.gallery_list_item_link {
+    width: 105px;
+    height: 105px;
+    background-repeat: no-repeat;
+    background-size: 150px 150px; // display: inline-block;
+    display: block;
+    font-size: 0;
+    border-radius: 50%;
+    box-shadow: 0px -5px 16px 0 rgba(184, 172, 147, 0.75);
+    &.--gallery1 {
+        background-image: url(../img/gallery1_105x105.png);
+    }
+    &.--gallery2 {
+        background-image: url(../img/gallery2_105x105.png);
+    }
+    &.--gallery3 {
+        background-image: url(../img/gallery3_105x105.png);
+    }
+    &.--gallery4 {
+        background-image: url(../img/gallery4_105x105.png);
+    }
+    &.--gallery5 {
+        background-image: url(../img/gallery5_105x105.png);
+    }
+    &.--gallery6 {
+        background-image: url(../img/gallery6_105x105.png);
+    }
+}
+.footer{
+    border-radius: 5px;
+    background-color: $black;
+    margin-top: 120px;
+}
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    .footer_copy {
+        font-family: 'PT Serif', serif;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.1;
+        letter-spacing: -0.4px;
+        text-align: left;
+        color: $white;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        .footer_link {
+            color: $faded-red;
+            text-decoration: none;
+        }
+    }
+    .logo{
+        margin-top: 73px;
+        margin-right: 5px;
     }
 }
