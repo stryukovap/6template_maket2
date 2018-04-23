@@ -94,7 +94,7 @@ table {
 /* line 34, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .header_wrapper .main_nav {
   align-self: flex-start;
-  margin-top: 71px;
+  margin-top: 70px;
 }
 
 /* line 40, D:/Development/GitHub/6template_maket2/scss/style.scss */
@@ -116,7 +116,12 @@ table {
   justify-content: flex-end;
 }
 
-/* line 57, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 56, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.main_nav_item {
+  margin-right: 5px;
+}
+
+/* line 59, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .main_nav_item_link {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
@@ -132,14 +137,14 @@ table {
   text-transform: uppercase;
 }
 
-/* line 70, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 72, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .main_nav_item_link:hover {
   color: #ffffff;
   background-color: #d03958;
   border-radius: 5px;
 }
 
-/* line 77, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 79, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .main_header_tittle {
   font-family: 'Montserrat', sans-serif;
   font-size: 90px;
@@ -150,20 +155,20 @@ table {
   letter-spacing: -1.8px;
   text-align: left;
   max-width: 48.81188%;
-  margin-top: 163px;
+  margin-top: 128px;
 }
 
-/* line 88, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 90, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .main_header_tittle .main_header_title_part1 {
   color: #d03958;
 }
 
-/* line 91, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 93, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .main_header_tittle .main_header_title_part2 {
   color: #161616;
 }
 
-/* line 94, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 96, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .main_header_tittle .main_header_title_text {
   font-family: 'PT Serif', serif;
   font-size: 20px;
@@ -174,11 +179,11 @@ table {
   letter-spacing: -0.4px;
   text-align: left;
   color: #161616;
-  margin-top: 47px;
+  margin-top: 34px;
   padding-bottom: 156px;
 }
 
-/* line 110, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 112, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .serveces .services_title {
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
@@ -191,24 +196,24 @@ table {
   margin-top: 40px;
 }
 
-/* line 120, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 122, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .serveces .services_title .sevrice_title_part1 {
   color: #d03958;
 }
 
-/* line 123, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 125, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .serveces .services_title .sevrice_title_part2 {
   color: #161616;
 }
 
-/* line 127, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 129, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .serveces .service_list {
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
 }
 
-/* line 131, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 133, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .serveces .service_list .service_item {
   font-family: 'PT Serif', serif;
   font-size: 20px;
@@ -226,55 +231,55 @@ table {
   align-items: center;
 }
 
-/* line 146, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 148, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .serveces .service_list .service_item::before {
   content: "";
   margin-bottom: 50px;
 }
 
-/* line 150, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 152, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .serveces .service_list .service_item.--heart::before {
   width: 163px;
   height: 142px;
   background-image: url(../img/heart_163x142.png);
 }
 
-/* line 155, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 157, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .serveces .service_list .service_item.--keys::before {
   width: 137px;
   height: 137px;
   background-image: url(../img/keys_137x137.png);
 }
 
-/* line 160, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 162, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .serveces .service_list .service_item.--lamp::before {
   width: 116px;
   height: 155px;
   background-image: url(../img/lamp_116x155.png);
 }
 
-/* line 165, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 167, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .serveces .service_list .service_item.--nav::before {
   width: 150px;
   height: 150px;
   background-image: url(../img/nav_150x150.png);
 }
 
-/* line 174, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 176, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .row {
   border-radius: 5px;
   background-color: #d03958;
   margin-top: 50px;
 }
 
-/* line 178, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 180, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .row .row_wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* line 183, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 185, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .row .row_text {
   font-family: 'PT Serif', serif;
   font-size: 20px;
@@ -290,7 +295,7 @@ table {
   max-width: 59.50495%;
 }
 
-/* line 197, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 199, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .row .row_link {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
@@ -307,18 +312,18 @@ table {
   background-color: #e3d5b8;
 }
 
-/* line 211, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 213, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .row .row_link:hover {
   color: #d03958;
 }
 
-/* line 217, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 219, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .pricing {
   border-radius: 23.2px;
   background-color: beige;
 }
 
-/* line 220, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 222, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .pricing .pricing_title {
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
@@ -332,7 +337,7 @@ table {
   padding-top: 65px;
 }
 
-/* line 232, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 234, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .pricing .pricing_wrapper {
   display: flex;
   justify-content: space-between;
@@ -340,7 +345,7 @@ table {
   margin-top: 60px;
 }
 
-/* line 240, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 242, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .pricing_card {
   background-color: #ffffff;
   border-radius: 5px;
@@ -349,14 +354,14 @@ table {
   text-align: center;
 }
 
-/* line 249, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 251, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .pricing_card .pricing_card_title {
   font-size: 22px;
   line-height: 1.27;
   margin-top: 35px;
 }
 
-/* line 254, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 256, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .pricing_card .pricing_card_value {
   font-family: 'Montserrat', sans-serif;
   font-size: 60px;
@@ -370,12 +375,12 @@ table {
   margin-top: 40px;
 }
 
-/* line 266, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 268, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .pricing_card .pricing_card_list {
   margin-top: 30px;
 }
 
-/* line 269, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 271, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .pricing_card .pricing_card_item {
   font-family: 'PT Serif', serif;
   font-size: 20px;
@@ -388,7 +393,7 @@ table {
   color: #161616;
 }
 
-/* line 280, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 282, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .pricing_card .pricing_card_link {
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
@@ -408,25 +413,25 @@ table {
   text-decoration: none;
 }
 
-/* line 297, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 299, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .pricing_card .pricing_card_link:hover {
   background-color: #d03958;
   color: #ffffff;
 }
 
-/* line 304, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 306, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .tesmonial_gallery {
   display: flex;
   justify-content: space-between;
   margin-top: 150px;
 }
 
-/* line 310, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 312, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .tesmonial {
   max-width: 50%;
 }
 
-/* line 313, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 315, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .tesmonial .tesmonial_title {
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
@@ -439,7 +444,7 @@ table {
   color: #1f1f1f;
 }
 
-/* line 324, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 326, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .tesmonial .tesmonial_list_item_text {
   font-family: 'PT Serif', serif;
   font-size: 20px;
@@ -454,7 +459,7 @@ table {
   width: 336px;
 }
 
-/* line 337, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 339, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .tesmonial .tesmonial_list_item_author {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
@@ -468,12 +473,12 @@ table {
   padding-top: 23px;
 }
 
-/* line 351, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 353, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .tesmonial_list_item {
   position: relative;
 }
 
-/* line 354, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 356, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .tesmonial_list_item .tesmonial_list_item_text::before {
   content: "";
   width: 105px;
@@ -486,22 +491,22 @@ table {
   box-shadow: 0px -5px 16px 0 rgba(184, 172, 147, 0.75);
 }
 
-/* line 365, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 367, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .tesmonial_list_item .tesmonial_list_item_text.--testim1::before {
   background-image: url(../img/testim1_105x105.png);
 }
 
-/* line 368, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 370, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .tesmonial_list_item .tesmonial_list_item_text.--testim2::before {
   background-image: url(../img/testim2_105x105.png);
 }
 
-/* line 374, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 376, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .gallery {
   max-width: 38.41584%;
 }
 
-/* line 376, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 378, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .gallery .gallery_title {
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
@@ -514,7 +519,7 @@ table {
   color: #d03958;
 }
 
-/* line 387, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 389, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .gallery .gallery_list {
   display: flex;
   flex-wrap: wrap;
@@ -522,18 +527,18 @@ table {
   margin-top: 35px;
 }
 
-/* line 393, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 395, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .gallery .gallery_list_item {
   margin-top: 30px;
 }
 
-/* line 396, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 398, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .gallery .gallery_link_wrapper {
   text-align: center;
   margin-top: 50px;
 }
 
-/* line 400, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 402, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .gallery .gallery_link {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -546,7 +551,7 @@ table {
   color: #d03958;
 }
 
-/* line 413, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 415, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .gallery_list_item_link {
   width: 105px;
   height: 105px;
@@ -558,50 +563,50 @@ table {
   box-shadow: 0px -5px 16px 0 rgba(184, 172, 147, 0.75);
 }
 
-/* line 422, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 424, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .gallery_list_item_link.--gallery1 {
   background-image: url(../img/gallery1_105x105.png);
 }
 
-/* line 425, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 427, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .gallery_list_item_link.--gallery2 {
   background-image: url(../img/gallery2_105x105.png);
 }
 
-/* line 428, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 430, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .gallery_list_item_link.--gallery3 {
   background-image: url(../img/gallery3_105x105.png);
 }
 
-/* line 431, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 433, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .gallery_list_item_link.--gallery4 {
   background-image: url(../img/gallery4_105x105.png);
 }
 
-/* line 434, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 436, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .gallery_list_item_link.--gallery5 {
   background-image: url(../img/gallery5_105x105.png);
 }
 
-/* line 437, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 439, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .gallery_list_item_link.--gallery6 {
   background-image: url(../img/gallery6_105x105.png);
 }
 
-/* line 442, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 444, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .footer {
   border-radius: 5px;
   background-color: #161616;
   margin-top: 120px;
 }
 
-/* line 448, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 450, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .footer_wrapper {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 451, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 453, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .footer_wrapper .footer_copy {
   font-family: 'PT Serif', serif;
   font-size: 20px;
@@ -616,19 +621,19 @@ table {
   margin-bottom: 80px;
 }
 
-/* line 463, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 465, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .footer_wrapper .footer_copy .footer_link {
   color: #d03958;
   text-decoration: none;
 }
 
-/* line 468, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 470, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .footer_wrapper .logo {
   margin-top: 73px;
   margin-right: 5px;
 }
 
-/* line 474, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 476, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .abs_form {
   position: absolute;
   top: 260px;
@@ -649,7 +654,7 @@ table {
   color: #b5b5b5;
 }
 
-/* line 492, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 494, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .abs_form .abs_form_title {
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
@@ -663,7 +668,7 @@ table {
   padding-top: 33px;
 }
 
-/* line 504, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 506, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .abs_form .fullname,
 .abs_form .email,
 .abs_form .tel,
@@ -678,18 +683,18 @@ table {
   margin-top: 15px;
 }
 
-/* line 517, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 519, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .abs_form .accept_wrapper {
   width: 353px;
   margin-top: 20px;
 }
 
-/* line 521, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 523, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .abs_form .accept_wrapper .accept_label {
   color: #ffffff;
 }
 
-/* line 525, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 527, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .abs_form .abs_form_button {
   margin-top: 15px;
   width: 353px;
@@ -698,13 +703,14 @@ table {
   background-color: #161616;
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: -0.4px;
   text-align: center;
   color: #ffffff;
+  border: none;
 }
 
 /*# sourceMappingURL=../css/style.map */
