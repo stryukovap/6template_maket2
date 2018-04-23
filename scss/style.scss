@@ -110,7 +110,7 @@ $container:1010px;
     }
 }
 
-.serveces {
+.services {
     .services_title {
         font-family: 'Montserrat', sans-serif;
         font-size: 50px;
@@ -242,9 +242,6 @@ $container:1010px;
 }
 
 .pricing_card {
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
     background-color: $white;
     border-radius: 5px;
     min-width: 318px / 1010px * 100%;
@@ -322,7 +319,7 @@ $container:1010px;
         font-stretch: normal;
         line-height: 1.6;
         letter-spacing: -1px;
-        text-align: center;
+        text-align: right;
         color: $black-two;
     }
     .tesmonial_list_item_text {
@@ -335,8 +332,9 @@ $container:1010px;
         letter-spacing: -0.4px;
         text-align: left;
         color: $black; // position: relative;
-        margin-top: 32px; // max-width: 336px / $container*100%;
-        width: 336px;
+        // margin-top: 32px; // max-width: 336px / $container*100%;
+        width: 439px;
+        // padding-right: 77px;
     }
     .tesmonial_list_item_author {
         font-family: 'Montserrat', sans-serif;
@@ -354,6 +352,14 @@ $container:1010px;
 
 .tesmonial_list_item {
     position: relative;
+    padding-top: 25px;
+    margin-top: 35px;
+    padding-left: 25px;
+    padding-right: 77px;
+    &:hover {
+        border-radius: 4.6px;
+        background-color: $beige;
+    }
     .tesmonial_list_item_text {
         &::before {
             content: "";
@@ -362,8 +368,8 @@ $container:1010px;
             display: block;
             position: absolute;
             border-radius: 50%;
-            top: 0;
-            right: -75px - 15px;
+            top: 20px;
+            right: 10px;
             box-shadow: 0px -5px 16px 0 rgba(184, 172, 147, 0.75);
         }
         &.--testim1::before {
@@ -469,18 +475,31 @@ $container:1010px;
             text-decoration: none;
         }
     }
-    .logo {
-        margin-top: 73px;
+    .footer_logo {
+        margin-top: 94px;
         margin-right: 5px;
+        .footer_logo_text {
+            font-size: 64.5px;
+            line-height: 0.36;
+            letter-spacing: -1.3px;
+            font-family: 'Quite Chocolatey';
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            text-align: center;
+            color: $faded-red;
+        }
     }
 }
-.main_header_tittle{
+
+.container {
     position: relative;
 }
+
 .abs_form {
-    // position: absolute;
-    // top: -2px;
-    // right: -503px;
+    position: absolute;
+    top: 233px;
+    right: 14px;
     width: 400px;
     height: 520px;
     border-radius: 5.2px;
@@ -499,7 +518,7 @@ $container:1010px;
         color: $white;
         padding-top: 29px;
     }
-    .form_wrapper{
+    .form_wrapper {
         margin-top: 17px;
     }
     .fullname,
