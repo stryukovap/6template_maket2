@@ -633,20 +633,22 @@ table {
   margin-right: 5px;
 }
 
-/* line 478, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 477, D:/Development/GitHub/6template_maket2/scss/style.scss */
+.main_header_tittle {
+  position: relative;
+}
+
+/* line 480, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .abs_form {
-  position: absolute;
-  top: 260px;
-  right: 200px;
   width: 400px;
-  height: 500px;
+  height: 520px;
   border-radius: 5.2px;
   background-color: #d03958;
   box-shadow: 0px -5px 38px 0 rgba(173, 173, 173, 0.75);
   text-align: center;
 }
 
-/* line 488, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 490, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .abs_form .abs_form_title {
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
@@ -660,12 +662,12 @@ table {
   padding-top: 29px;
 }
 
-/* line 500, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 502, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .abs_form .form_wrapper {
   margin-top: 17px;
 }
 
-/* line 503, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 505, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .abs_form .fullname,
 .abs_form .email,
 .abs_form .tel,
@@ -689,13 +691,13 @@ table {
   border: none;
 }
 
-/* line 525, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 527, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .abs_form .accept_wrapper {
   width: 353px;
   margin-top: 22px;
 }
 
-/* line 528, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 530, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .abs_form .accept_wrapper .accept_label {
   font-family: 'PT Serif', serif;
   font-size: 20px;
@@ -709,7 +711,7 @@ table {
   color: #ffffff;
 }
 
-/* line 541, D:/Development/GitHub/6template_maket2/scss/style.scss */
+/* line 543, D:/Development/GitHub/6template_maket2/scss/style.scss */
 .abs_form .abs_form_button {
   margin-top: 20px;
   width: 353px;
