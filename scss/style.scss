@@ -167,35 +167,70 @@ $container:1010px;
     .accept_wrapper {
         width: 353px;
         margin-top: 22px;
-        .accept_label {
-            font-family: 'PT Serif', serif;
-            font-size: 20px;
-            font-weight: normal;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: 1.25;
-            letter-spacing: -0.4px;
-            text-align: left;
-            padding-left: 23px;
-            color: $white;
-        }
     }
-    .abs_form_button {
-        margin-top: 20px;
-        width: 353px;
-        height: 57px;
-        border-radius: 5px;
-        background-color: $black;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 22px;
+    .accept_checkbox:checked+.accept_label::before {
+        position: absolute;
+        content: "";
+        display: block;
+        width: 20px;
+        height: 20px;
+        top: 50%;
+        left: -20px;
+        margin-top: -10px;
+        background-image: url(https://png.icons8.com/metro/1600/checkmark.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 2;
+    }
+    .accept_label {
+        font-family: 'PT Serif', serif;
+        font-size: 20px;
         font-weight: normal;
         font-style: normal;
         font-stretch: normal;
-        line-height: normal;
+        line-height: 1.25;
         letter-spacing: -0.4px;
-        text-align: center;
+        text-align: left;
+        padding-left: 23px;
         color: $white;
-        border: none;
+        position: relative;
+        &::after {
+            position: absolute;
+            content: "";
+            display: block;
+            width: 20px;
+            height: 20px;
+            background-color: $white;
+            border-radius: 5px;
+            top: 50%;
+            left: -20px;
+            margin-top: -10px;
+        }
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.abs_form_button {
+    margin-top: 20px;
+    width: 353px;
+    height: 57px;
+    border-radius: 5px;
+    background-color: $black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-align: center;
+    color: $white;
+    border: none;
+    &:hover {
+        color: $faded-red;
+        cursor: pointer;
     }
 }
 
@@ -336,6 +371,15 @@ $container:1010px;
     position: relative;
     box-shadow: 0px -5px 16px 0 rgba(184, 172, 147, 0.75);
     overflow: hidden;
+    top: 5px;
+    -webkit-box-shadow: 17px 17px 10px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 17px 17px 10px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 17px 17px 10px 1px rgba(0, 0, 0, 0.75);
+    &:hover {
+        -webkit-box-shadow: 17px 17px 10px 1px rgba(208, 57, 88, 1);
+        -moz-box-shadow: 17px 17px 10px 1px rgba(208, 57, 88, 1);
+        box-shadow: 17px 17px 10px 1px rgba(208, 57, 88, 1);
+    }
     &:nth-child(2)::before {
         content: "";
         position: absolute;
@@ -344,7 +388,6 @@ $container:1010px;
         display: block;
         border-top: 100px solid #b4a993;
         border-right: 100px solid transparent;
-        // border-radius: 5px;
     }
     &:nth-child(2)::after {
         content: "Popular";
