@@ -325,12 +325,19 @@ $container:1010px;
     .tesmonial_list {
         margin-top: 5px;
         .tesmonial_list_item {
+            font-size: 20px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.4;
+            letter-spacing: -0.4px;
+            text-align: left;
             position: relative;
             padding-top: 26px;
             padding-bottom: 27px;
             padding-right: 60px;
             padding-left: 26px;
-            margin-top: 15px;
+            margin-top: 25px;
             margin-right: 30px;
             &:hover {
                 border-radius: 4.6px;
@@ -353,40 +360,25 @@ $container:1010px;
             &.--testim2::before {
                 background-image: url(../img/testim2_105x105.png);
             }
-        }
-        &:first-child() .tesmonial_list_item {
-            margin-top: 0;
+            &:first-child {
+                margin-top: 0;
+            }
         }
     }
     .tesmonial_list_item_text {
         font-family: 'PT Serif', serif;
-        font-size: 20px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.4;
-        letter-spacing: -0.4px;
-        text-align: left;
         color: $black;
     }
     .tesmonial_list_item_author {
         font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.4;
-        letter-spacing: -0.4px;
-        text-align: left;
         color: $faded-red;
         margin-top: 15px;
     }
 }
 
 .gallery {
-    // max-width: 388px / $container * 100%;
     width: 50%;
-    margin-left: 65px;
+    margin-left: 105px;
     .gallery_title {
         font-family: 'Montserrat', sans-serif;
         font-size: 50px;
@@ -402,22 +394,15 @@ $container:1010px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin-top: 35px;
-    }
-    .gallery_list_item {
-        margin-top: 30px;
+        margin-top: 5px;
     }
     .gallery_link_wrapper {
         text-align: center;
         margin-top: 50px;
     }
     .gallery_link {
-        font-family: 'Montserrat', sans-serif;
         text-align: center;
         font-size: 20px;
-        font-weight: 700;
-        font-style: normal;
-        font-stretch: normal;
         line-height: 1.4;
         letter-spacing: -0.4px;
         color: $faded-red;
@@ -425,6 +410,8 @@ $container:1010px;
 }
 
 .gallery_list_item_link {
+    margin-top: 30px;
+    margin-left: 35px;
     width: 105px;
     height: 105px;
     background-repeat: no-repeat;
@@ -454,7 +441,6 @@ $container:1010px;
 }
 
 .footer {
-    border-radius: 5px;
     background-color: $black;
     margin-top: 120px;
 }
@@ -462,12 +448,12 @@ $container:1010px;
 .footer_wrapper {
     display: flex;
     justify-content: space-between;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
     .footer_copy {
         font-family: 'PT Serif', serif;
         font-size: 20px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
         line-height: 1.1;
         letter-spacing: -0.4px;
         text-align: left;
@@ -477,6 +463,9 @@ $container:1010px;
         .footer_link {
             color: $faded-red;
             text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
         }
     }
     .footer_logo {
@@ -487,9 +476,6 @@ $container:1010px;
             line-height: 0.36;
             letter-spacing: -1.3px;
             font-family: 'Quite Chocolatey';
-            font-weight: normal;
-            font-style: normal;
-            font-stretch: normal;
             text-align: center;
             color: $faded-red;
         }
