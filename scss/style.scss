@@ -78,6 +78,17 @@ $container:1010px;
     }
 }
 
+.wrapp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapp_form {
+    position: relative;
+    top: 125px;
+    right: 0;
+}
+
 .main_header_tittle {
     font-family: 'Montserrat', sans-serif;
     font-size: 90px;
@@ -107,6 +118,84 @@ $container:1010px;
         color: $black;
         margin-top: 34px;
         padding-bottom: 156px;
+    }
+}
+
+.abs_form {
+    width: 400px;
+    height: 520px;
+    border-radius: 5.2px;
+    background-color: $faded-red;
+    box-shadow: 0px -5px 38px 0 rgba(173, 173, 173, 0.75);
+    text-align: center;
+    .abs_form_title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: -0.4px;
+        text-align: center;
+        color: $white;
+        padding-top: 29px;
+    }
+    .form_wrapper {
+        margin-top: 17px;
+    }
+    .fullname,
+    .email,
+    .tel,
+    .country {
+        padding-left: 19px;
+        text-align: left;
+        width: 335px;
+        height: 57px;
+        border-radius: 5px;
+        background-color: $white;
+        margin-top: 15px;
+        font-family: 'PT Serif', serif;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.25;
+        letter-spacing: -0.4px;
+        color: $greyish;
+        border: none;
+    }
+    .accept_wrapper {
+        width: 353px;
+        margin-top: 22px;
+        .accept_label {
+            font-family: 'PT Serif', serif;
+            font-size: 20px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.25;
+            letter-spacing: -0.4px;
+            text-align: left;
+            padding-left: 23px;
+            color: $white;
+        }
+    }
+    .abs_form_button {
+        margin-top: 20px;
+        width: 353px;
+        height: 57px;
+        border-radius: 5px;
+        background-color: $black;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: -0.4px;
+        text-align: center;
+        color: $white;
+        border: none;
     }
 }
 
@@ -176,7 +265,6 @@ $container:1010px;
 }
 
 .row {
-    border-radius: 5px;
     background-color: $faded-red;
     margin-top: 60px;
     .row_wrapper {
@@ -219,7 +307,6 @@ $container:1010px;
 }
 
 .pricing {
-    border-radius: 23.2px;
     background-color: beige;
     .pricing_title {
         font-family: 'Montserrat', sans-serif;
@@ -235,7 +322,7 @@ $container:1010px;
     }
     .pricing_wrapper {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         margin-top: 35px;
     }
@@ -245,8 +332,36 @@ $container:1010px;
     background-color: $white;
     border-radius: 5px;
     min-width: 318px / 1010px * 100%;
-    margin-bottom: 5px;
     text-align: center;
+    position: relative;
+    box-shadow: 0px -5px 16px 0 rgba(184, 172, 147, 0.75);
+    overflow: hidden;
+    &:nth-child(2)::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        border-top: 100px solid #b4a993;
+        border-right: 100px solid transparent;
+        // border-radius: 5px;
+    }
+    &:nth-child(2)::after {
+        content: "Popular";
+        position: absolute;
+        top: 15px;
+        left: 5px;
+        font-family: 'PT Serif', serif;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.73;
+        letter-spacing: -0.2px;
+        text-align: center;
+        color: $black-two;
+        transform: rotate(-45deg);
+    }
     .pricing_card_title {
         font-size: 22px;
         line-height: 1.27;
@@ -463,7 +578,7 @@ $container:1010px;
         .footer_link {
             color: $faded-red;
             text-decoration: none;
-            &:hover{
+            &:hover {
                 text-decoration: underline;
             }
         }
@@ -479,91 +594,5 @@ $container:1010px;
             text-align: center;
             color: $faded-red;
         }
-    }
-}
-
-.container {
-    position: relative;
-}
-
-.abs_form {
-    position: absolute;
-    top: 233px;
-    right: 14px;
-    width: 400px;
-    height: 520px;
-    border-radius: 5.2px;
-    background-color: $faded-red;
-    box-shadow: 0px -5px 38px 0 rgba(173, 173, 173, 0.75);
-    text-align: center;
-    .abs_form_title {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 22px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: normal;
-        letter-spacing: -0.4px;
-        text-align: center;
-        color: $white;
-        padding-top: 29px;
-    }
-    .form_wrapper {
-        margin-top: 17px;
-    }
-    .fullname,
-    .email,
-    .tel,
-    .country {
-        padding-left: 19px;
-        text-align: left;
-        width: 335px;
-        height: 57px;
-        mix-blend-mode: undefined;
-        border-radius: 5px;
-        background-color: $white;
-        margin-top: 15px;
-        font-family: 'PT Serif', serif;
-        font-size: 20px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.25;
-        letter-spacing: -0.4px;
-        color: $greyish;
-        border: none;
-    }
-    .accept_wrapper {
-        width: 353px; // height: 25px;
-        margin-top: 22px;
-        .accept_label {
-            font-family: 'PT Serif', serif;
-            font-size: 20px;
-            font-weight: normal;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: 1.25;
-            letter-spacing: -0.4px;
-            text-align: left;
-            padding-left: 23px;
-            color: $white;
-        }
-    }
-    .abs_form_button {
-        margin-top: 20px;
-        width: 353px;
-        height: 57px;
-        border-radius: 5px;
-        background-color: $black;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 22px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: normal;
-        letter-spacing: -0.4px;
-        text-align: center;
-        color: $white;
-        border: none;
     }
 }
