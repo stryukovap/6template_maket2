@@ -378,28 +378,28 @@ table {
 }
 
 /* line 272, D:/Development/GitHub/6template_maket2/scss/style.scss */
-.service_list .service_item.--heart::before {
+.service_list .service_item.heart::before {
   width: 163px;
   height: 142px;
   background-image: url(../img/heart_163x142.png);
 }
 
 /* line 277, D:/Development/GitHub/6template_maket2/scss/style.scss */
-.service_list .service_item.--keys::before {
+.service_list .service_item.keys::before {
   width: 137px;
   height: 137px;
   background-image: url(../img/keys_137x137.png);
 }
 
 /* line 282, D:/Development/GitHub/6template_maket2/scss/style.scss */
-.service_list .service_item.--lamp::before {
+.service_list .service_item.lamp::before {
   width: 116px;
   height: 155px;
   background-image: url(../img/lamp_116x155.png);
 }
 
 /* line 287, D:/Development/GitHub/6template_maket2/scss/style.scss */
-.service_list .service_item.--nav::before {
+.service_list .service_item.nav::before {
   width: 150px;
   height: 150px;
   background-image: url(../img/nav_150x150.png);
@@ -679,12 +679,12 @@ table {
 }
 
 /* line 520, D:/Development/GitHub/6template_maket2/scss/style.scss */
-.tesmonial_list_item.--testim1::before {
+.tesmonial_list_item.testim1::before {
   background-image: url(../img/testim1_105x105.png);
 }
 
 /* line 523, D:/Development/GitHub/6template_maket2/scss/style.scss */
-.tesmonial_list_item.--testim2::before {
+.tesmonial_list_item.testim2::before {
   background-image: url(../img/testim2_105x105.png);
 }
 
@@ -755,32 +755,32 @@ table {
 }
 
 /* line 578, D:/Development/GitHub/6template_maket2/scss/style.scss */
-.gallery_list_item_link.--gallery1 {
+.gallery_list_item_link.gallery1 {
   background-image: url(../img/gallery1_105x105.png);
 }
 
 /* line 581, D:/Development/GitHub/6template_maket2/scss/style.scss */
-.gallery_list_item_link.--gallery2 {
+.gallery_list_item_link.gallery2 {
   background-image: url(../img/gallery2_105x105.png);
 }
 
 /* line 584, D:/Development/GitHub/6template_maket2/scss/style.scss */
-.gallery_list_item_link.--gallery3 {
+.gallery_list_item_link.gallery3 {
   background-image: url(../img/gallery3_105x105.png);
 }
 
 /* line 587, D:/Development/GitHub/6template_maket2/scss/style.scss */
-.gallery_list_item_link.--gallery4 {
+.gallery_list_item_link.gallery4 {
   background-image: url(../img/gallery4_105x105.png);
 }
 
 /* line 590, D:/Development/GitHub/6template_maket2/scss/style.scss */
-.gallery_list_item_link.--gallery5 {
+.gallery_list_item_link.gallery5 {
   background-image: url(../img/gallery5_105x105.png);
 }
 
 /* line 593, D:/Development/GitHub/6template_maket2/scss/style.scss */
-.gallery_list_item_link.--gallery6 {
+.gallery_list_item_link.gallery6 {
   background-image: url(../img/gallery6_105x105.png);
 }
 

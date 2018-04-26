@@ -269,22 +269,22 @@ $container:1010px;
             content: "";
             margin-bottom: 30px;
         }
-        &.--heart::before {
+        &.heart::before {
             width: 163px;
             height: 142px;
             background-image: url(../img/heart_163x142.png);
         }
-        &.--keys::before {
+        &.keys::before {
             width: 137px;
             height: 137px;
             background-image: url(../img/keys_137x137.png);
         }
-        &.--lamp::before {
+        &.lamp::before {
             width: 116px;
             height: 155px;
             background-image: url(../img/lamp_116x155.png);
         }
-        &.--nav::before {
+        &.nav::before {
             width: 150px;
             height: 150px;
             background-image: url(../img/nav_150x150.png);
@@ -517,10 +517,10 @@ $container:1010px;
         right: -50px;
         box-shadow: 0px -5px 16px 0 rgba(184, 172, 147, 0.75);
     }
-    &.--testim1::before {
+    &.testim1::before {
         background-image: url(../img/testim1_105x105.png);
     }
-    &.--testim2::before {
+    &.testim2::before {
         background-image: url(../img/testim2_105x105.png);
     }
     &:first-child {
@@ -575,22 +575,22 @@ $container:1010px;
     font-size: 0;
     border-radius: 50%;
     box-shadow: 0px -5px 16px 0 rgba(184, 172, 147, 0.75);
-    &.--gallery1 {
+    &.gallery1 {
         background-image: url(../img/gallery1_105x105.png);
     }
-    &.--gallery2 {
+    &.gallery2 {
         background-image: url(../img/gallery2_105x105.png);
     }
-    &.--gallery3 {
+    &.gallery3 {
         background-image: url(../img/gallery3_105x105.png);
     }
-    &.--gallery4 {
+    &.gallery4 {
         background-image: url(../img/gallery4_105x105.png);
     }
-    &.--gallery5 {
+    &.gallery5 {
         background-image: url(../img/gallery5_105x105.png);
     }
-    &.--gallery6 {
+    &.gallery6 {
         background-image: url(../img/gallery6_105x105.png);
     }
 }
